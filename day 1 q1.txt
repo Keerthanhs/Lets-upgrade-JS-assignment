@@ -1,0 +1,13 @@
+> var myArray = [1,2,3];
+  undefined
+> myArray
+  [1, 2, 3]
+> myArray.logme = function() { console.log(this); };
+  function () { console.log(this); }
+> myArray
+  [1, 2, 3]
+
+we can also use 
+
+
+console.dir(myarray);
